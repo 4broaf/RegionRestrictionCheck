@@ -132,7 +132,7 @@ bash <(curl -L -s check.unlock.media) -I eth0
 
 ##### 选择脚本语言为英文：
 ````bash
-bash <(curl -L -s check.unlock.media) -L e
+bash <(curl -L -s check.unlock.media) -E
 ````
 
 **或者直接运行以下Docker命令** (兼容ARM架构)
@@ -140,6 +140,12 @@ bash <(curl -L -s check.unlock.media) -L e
 docker run --rm -ti --net=host lmc999/regioncheck && docker rmi lmc999/regioncheck
 ````
 
+## 赞助
+如果觉得脚本对你有帮助，可以考虑请作者喝一箱健力宝
+
+![image](https://i.imgur.com/HHbZgUsl.jpg)
+
+![image](https://i.imgur.com/MWXifObl.jpg)
 
 ## 交流
 脚本使用过程中出现bug欢迎提交issue
